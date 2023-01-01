@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Camera-Application/static/css/main.7d1888ae.css",
-    "main.js": "/React-Camera-Application/static/js/main.fb4f0223.js",
-    "static/js/787.9856bf8f.chunk.js": "/React-Camera-Application/static/js/787.9856bf8f.chunk.js",
-    "index.html": "/React-Camera-Application/index.html",
-    "main.7d1888ae.css.map": "/React-Camera-Application/static/css/main.7d1888ae.css.map",
-    "main.fb4f0223.js.map": "/React-Camera-Application/static/js/main.fb4f0223.js.map",
-    "787.9856bf8f.chunk.js.map": "/React-Camera-Application/static/js/787.9856bf8f.chunk.js.map"
+    "main.css": "/React-Camera-Pro-Application/static/css/main.7d1888ae.css",
+    "main.js": "/React-Camera-Pro-Application/static/js/main.0832bb33.js",
+    "static/js/787.9856bf8f.chunk.js": "/React-Camera-Pro-Application/static/js/787.9856bf8f.chunk.js",
+    "index.html": "/React-Camera-Pro-Application/index.html",
+    "main.7d1888ae.css.map": "/React-Camera-Pro-Application/static/css/main.7d1888ae.css.map",
+    "main.0832bb33.js.map": "/React-Camera-Pro-Application/static/js/main.0832bb33.js.map",
+    "787.9856bf8f.chunk.js.map": "/React-Camera-Pro-Application/static/js/787.9856bf8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d1888ae.css",
-    "static/js/main.fb4f0223.js"
+    "static/js/main.0832bb33.js"
   ]
 }
