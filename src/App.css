@@ -1,0 +1,183 @@
+h1{
+  text-align: center;
+  color: #11d7ce;
+  text-shadow: 4px 4px #1c0689;
+}
+
+h2{
+  text-align: center;
+  color: #119cd7;
+  text-shadow: 1px 1px #1c0689;
+}
+
+h3{
+  color: #1118d7;
+  text-shadow: 1px 1px #1c0689;
+}
+
+h4{
+  text-align: center;
+  color: #0766fe;
+  text-shadow: 1px 1px #1c0689;
+}
+
+.main-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-container{
+  height: 200px;
+  width: 267px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.26);
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+}
+
+.details-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.images-container{
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.image{
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  width: 200px;
+  border-radius: 150px;
+  margin: 10px;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: #06ffcd;
+}
+
+.control {
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.control label,
+.control input {
+  display: block;
+}
+
+.control label {
+  font-weight: bold;
+  flex: 1;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.control-radio{
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.control-radio input{
+  flex: 1;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.control-radio label {
+  font-weight: bold;
+  flex: 1;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+.control input:focus {
+  outline: none;
+  border-color: #4f005f;
+  background: #f6dbfc;
+}
+
+.control.invalid input {
+  border-color: red;
+  background: #fbdada;
+}
+
+.actions {
+  text-align: center;
+}
+
+button {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+
+button:hover,
+button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.emailValidity-alert{
+  font-size: smaller;
+  text-align: center;
+  color: #ff0000;
+}
+
+@media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+
+}
+
